@@ -17,7 +17,7 @@ document.getElementById("download-btn").addEventListener("click" , async() => {
         videoElement.controls = true;
         videoElement.autoplay = true;
         var sourceElement = document.createElement("source");
-        sourceElement.src = url; 
+        sourceElement.src = "downloads/" + url; 
         sourceElement.type = "video/mp4";
         videoElement.appendChild(sourceElement);
         document.getElementById("videoContainer").appendChild(videoElement);
