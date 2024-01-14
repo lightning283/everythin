@@ -1,2 +1,4 @@
 web/downloads/
 web/downloads/*
+./history/
+.history/*
